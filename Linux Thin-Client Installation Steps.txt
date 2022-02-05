@@ -1,0 +1,17 @@
+To Change Background Pictures
+	Usr / Share / lubuntu / wallpapers
+TO Create User
+	sudo adduser (user-name)
+TO Install Login Manager
+	sudo apt-get install xdm
+To Install Xrdp
+	sudo apt-get install xrdp
+To start the server
+	vncserver
+	add password (6letters)
+To Create the login to Desktop script
+	create a file called .xsession
+	add the following code
+	lxsession -s Lubuntu -e LXDE
+	
+To try connect with rdp device
